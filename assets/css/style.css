@@ -1,4 +1,4 @@
-
+ rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap');
 * {
     font-family: 'Source Sans Pro', sans-serif;
@@ -6,10 +6,50 @@
 }
 
 .brand-logo {
-
-    height: 270px;
-    width: 160px;
+    height: 100px;
+    width: 106;
     object-fit: contain;
+
+}
+
+.header {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+}
+
+.logo-section {
+    cursor: pointer;
+}
+
+
+
+
+.nav-links {
+    flex-basis: 70%;
+    justify-content: center;
+    display: flex;
+  
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 20px;
+    background-color: red;
+    display: flex; 
+     
+}
+
+button {
+    cursor: pointer;
+    padding: 7px 12px;
+    border: none;
+    background: red;
+    color: white;
+   
 }
 
 
